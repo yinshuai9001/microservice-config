@@ -1,19 +1,16 @@
 spring:
   profiles:
-    active: dev
-  application:
-    name: service-dev
+    active: 
+    -dev
 
 ---
 spring:
-  profiles:
-    active: test
+  profiles: test
   application:
     name: service-test
 
 ---
 spring:
-  profiles:
-    active: 
+  profiles: dev
   application:
-    name: service-default
+    name: service-dev
