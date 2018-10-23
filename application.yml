@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-dev
+	
+---
+
+spring:
+  profiles:
+    active: test
+  application:
+    name: service-test
+	
+	
+---
+
+
+spring:
+  profiles:
+    active: 
+  application:
+    name: service-default
+ 
+
